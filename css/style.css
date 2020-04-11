@@ -1252,4 +1252,60 @@ a.toggleMenu img {
 	padding-top: 0.5em;
 }
 }
-/*---//Media Queries ends Here ----*/
+.alpha-text h3{
+	color:#fff;
+	text-shadow: 1px 1px 2px black
+}
+.alpha-text h1{
+	color:#fff;
+	font-size: 3.8em;
+	font-weight: 700;
+	width: 70%;
+	margin:0px;
+ 	padding:10px 0px 0.7em 0px;
+	text-shadow: 1px 1px 2px black
+	
+}
+.alpha-text h2{
+	color:#fff;
+	font-size: 2.7em;
+	font-weight: 700;
+	width: 100%;
+	margin:0px;
+	text-align:  center;
+ 	padding:10px 0px 0.7em 0px;
+	text-shadow: 1px 1px 2px black
+	
+}
+.alpha-text ul li{
+	list-style:none;	
+	display:inline-block;
+	margin-right:10px;
+}
+.alpha-text ul{
+	padding:0px;
+}
+.alpha-text{
+		margin-top: 8em;
+}
+.alpha-text ul li a {
+	color: #fff;
+	padding: 13px 30px;
+	border:2px solid #fff;
+	border-radius:0.3em;
+        -webkit-border-radius:0.3em;
+        -moz-border-radius: 0.3em;
+        -o-border-radius: 0.3em;
+	outline: none;
+}
+.alpha-text ul li a:hover,.alpha-text ul li a.active{
+	background: #fccd00;
+	text-decoration:none;
+	border:2px solid #947800;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	text-shadow: 1px 1px 2px black
+}

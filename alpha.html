@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>Сталкерский ПДА | Artux</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+</head>
+<body>
+      <div class="banner" id="home">
+		<div class="container">
+			<div class="header">
+				<div class="header-left">
+					<h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+				</div>
+				<div class="menu">
+                                     <a class="toggleMenu" href="#"><img src="images/menu1.png" alt="" /> </a>
+
+					<ul class="nav" id="nav">
+					<li><a href="/" class="scroll">Вернуться на главную</a></li>
+					
+					</ul>
+                                  <!----start-top-nav-script---->
+		                      <script type="text/javascript" src="js/responsive-nav.js"></script>
+
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+
+
+		<!----//End-top-nav-script---->
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+                       <div class="alpha-text">
+				<center>
+				<h2>На данный момент <span style="color:#fccd00;">Альфа-тест</span> не запущен</h2>
+				<h3>Как только начнется Альфа-тест, мы оповестим вас в группе ВКонтакте. Следите за новостями!</h3><br>
+				<ul>
+				<li><a href="https://vk.com/stalker_pda" target="_blank" class="active">Группа ВКонтакте</a></li>
+				</ul></center>
+			</div>
+
+
+		</div>
+	</div>
+		<div class="footer">
+		<div class="container">
+   			<div class="footer-main">
+				<div class="col-md-6 footer-main-left">
+					<h3>Сталкерский ПДА</h3>
+					<div class="footer-bottom">
+                                        	<div class="col-md-6 footer-bottom-left">
+							<p class=active>Production time</p>
+							<p>Questions and answers </p>
+							<p>Payment methods</p>
+						</div>
+						<div class="col-md-6 footer-bottom-left">
+							<p>Shipping information</p>
+							<p>Feedback</p>
+							<p>User agreement</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+                                     <div class="clearfix"></div>
+				</div>
+				<div class="col-md-6 footer-main-right">
+					<ul>
+					<li><a href="#"><span class="facebook"></span></a></li>
+					<li><a href="#"><span class="twitter"></span></a></li>
+					<li><a href="#"><span class="dribble"></span></a></li>
+             				<li><a href="#"><span class="google"></span></a></li>
+					</ul>
+					<p>Powered by <a href="http://artux.net/">Artux</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+                <script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+
+</body>
+</html>
