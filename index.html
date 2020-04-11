@@ -1,0 +1,282 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Сталкерский ПДА | Artux</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="demo.css" media="all" />
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <!-- FlexSlider -->
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    var $ = jQuery.noConflict();
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "fade"
+    });
+	
+	$(function() {
+		$('.show_menu').click(function(){
+				$('.menu').fadeIn();
+				$('.show_menu').fadeOut();
+				$('.hide_menu').fadeIn();
+		});
+		$('.hide_menu').click(function(){
+				$('.menu').fadeOut();
+				$('.show_menu').fadeIn();
+				$('.hide_menu').fadeOut();
+		});
+	});
+  });
+</script>
+</head>
+<body>
+      <div class="banner" id="home">
+		<div class="container">
+			<div class="header">
+				<div class="header-left">
+					<h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+				</div>
+				<div class="menu">
+                                     <a class="toggleMenu" href="#"><img src="images/menu1.png" alt="" /> </a>
+					<ul class="nav" id="nav">
+					<li><a class="active" href="#home" class="scroll">Главная</a></li>
+					<li><a href="#news" class="scroll">О ПДА</a></li>
+					<li><a href="#work" class="scroll">Функционал</a></li>
+					<li><a href="#about" class="scroll">Скачать</a></li>
+					<li><a href="#contact" class="scroll">Новости</a></li>
+					<li><a href="#" class="scroll"><span class="twitter"></span></a></li>
+					<li><a href="#" class="scroll"><span class="facebook"></span></a></li>
+					</ul>
+                                  <!----start-top-nav-script---->
+		                      <script type="text/javascript" src="js/responsive-nav.js"></script>
+					<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+		<!----//End-top-nav-script---->
+				</div>
+				<div class="clearfix"></div>
+			</div>
+                       <div class="banner-text">
+				<h3>«А как задание брать?»</h3>
+				<h1>Сталкерский ПДА <span style="color:#fccd00;">Android</span></h1>
+				<ul>
+				<li><a href="#news" class="scroll">Подробнее</a></li>
+				<li><a href="#">Участвовать в альфа-тесте</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="news" id="news">
+		<div class="container">
+			<div class="news-main">
+				<div class="col-md-6 news-left">
+                                	<h2>Что такое <span style="color:#fccd00;">Сталкерский ПДА?</span></h2>
+				</div>
+				<div class="col-md-6 news-right">
+					<p>Сталкерский ПДА - многофункциональное приложение для Android, которое поможет тебе погрузиться целиком в атмосферу вселенной S.T.A.L.K.E.R. Ты сможешь приятно и весело провести время в общем чате или в закрытом канале группировок, почитать свежие новости игровой индустрии, и самое главное - пройти сюжетные задания, отыгрывая роль сталкера в зоне. А после прохождения сюжета тебе будет доступен онлайн фриплей, в котором ты сможешь играть вместе с друзями!</p>
+					
+					</div>
+				
+				<div class="clearfix"></div>
+            		</div>
+		</div>
+	</div>
+	<div class="work" id="work">
+		<div class="container">
+ 			<div class="work-main">
+				<div class="work-top">
+					<h3>Что умеет ПДА?</h3>
+					<img src="images/string.png" alt="">
+					<p>Мы расскажим вам про несколько основных функций приложения</p>
+				</div>
+				<div class="work-bottom">
+					<div class="work-bottom-top">
+						<div class="col-md-4">
+							<div class="work-bottom-left">
+							<span class="work-icon1"></span>
+							<h4>Новости игровой индустрии</h4>
+							<p>Мы предусмотрели очень важную вкладку приложения, это игровые новости. В них публикуется информация из игр постапокалиптического жанра, и конечно же, непосредственно новости S.T.A.L.K.E.R. 2. Вы будете в курсе актуальных новостей разработки игр, модов, дополнений схожих игр.</p>	
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="work-bottom-left">
+							<span class="work-icon2"></span>
+							<h4>Чат-канал и личные сообщения</h4>
+							<p>ПДА - еще и социальное приложение. Оно позволяет общаться со сталкерами как в общих чатах, так и в чатах группировок, а также личныых сообщениях. Кроме того, в общем чате предусмотрена система уведомлений о выбросе, о смертях сталкеров, об опасных локациях.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="work-bottom-left">
+							<span class="work-icon3"></span>
+							<h4>Снаряжение</h4>
+                                                  	<p>Мы реализовали полноценное снаряжение в ПДА. Вы сможете покупать его за игровые деньги, продавать, модифицировать, использовать в сюжетной игре или на арене. Каждое оружие уникально и имеет свои параметры, которые влияют на игру.</p>
+							</div>
+						</div>
+						
+				<div class="clearfix"></div>
+					</div>
+					<div class="work-bottom-top">
+						<div class="col-md-4">
+							<div class="work-bottom-left">
+							<span class="work-icon4"></span>
+							<h4>Репутация</h4>
+							<p>Занимай места в недельных, месячных и годовых рейтингах! Репутация зависит от множества параметров: отношения к группировкам, репутация личности, количество побед на арене, время в зоне и многое другое!</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="work-bottom-left">
+							<span class="work-icon5"></span>
+							<h4>Арена</h4>
+							<p>На арене ты сможешь сразиться с живыми сталкерами, которые жаждут крови: перестреливайся со своими друзьями ли случайными незнакомцами, зарабатывай деньги, получай снаряжение и репутацию. Твой успех зависит от твоих умений!</p>
+							</div>
+
+						</div>
+						<div class="col-md-4">
+							<div class="work-bottom-left">
+							<span class="work-icon6"></span>
+							<h4>Сюжетная игра и карта Зоны</h4>
+							<p>Фишка нашего приложения - квесты. Там тебе доступна карта Зоны и квестовые задания с общим сюжетом. Проходи игру, зарабатывай деньги и репутацию, отстреливайся от бандитов и мутантов, собирай артефакты и погружайся в увлекательный мир Зоны!</p>
+							</div>
+						</div>
+						
+				<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="about" id="about">
+		<div class="container">
+			<div class="about-main">
+				<div class="col-md-6 about-left">
+					<img src="images/ring1.png" alt="">
+				</div>
+				<div class="col-md-6 about-right">
+					<h3>Приложение в разработке</h3>
+                                        <p>На данный момент приложение находится на стадии активной разработки. Совсем скоро мы запустим альфа-тест, в который наберем наших фанатов. А пока - следи за разработкой приложения на сайте или в группе ВКонтакте!</p>
+					<a class="active" href="https://vk.com/stalker_pda">Группа ВКонтакте</a>
+				</div>
+			<div class="clearfix"></div>
+			</div>	
+		</div>
+	</div>
+	<div class="choose">
+		<h2>Скриншоты</h2>
+		
+			   
+     <div class="slider_container">
+		<div class="flexslider">
+	      <ul class="slides">
+	    	<li>
+	    		<a href="https://sun9-5.userapi.com/c857020/v857020098/1497e8/IW8v5Ysw0Qc.jpg"><img src="https://sun9-5.userapi.com/c857020/v857020098/1497e8/IW8v5Ysw0Qc.jpg" alt="" title=""/></a>
+	    		
+	    	</li>
+	    	<li>
+	    		<a href="https://sun9-48.userapi.com/c857536/v857536025/1c6086/hwNT1DeQzR0.jpg"><img src="https://sun9-48.userapi.com/c857536/v857536025/1c6086/hwNT1DeQzR0.jpg" alt="" title=""/></a>
+	    		
+	    	</li>
+	    	
+	    </ul>
+	  </div>
+   </div>
+    </div>  
+	</div>
+
+	<div class="comments" id="contact">
+		<div class="container">
+			<div class="comments-main">
+				<div class="comments-head">
+				
+					<h3>Новости разработки</h3>
+					<img src="images/string.png" alt="">
+					<p>Мы расскажем,  как идет процесс создания ПДА в нашей группе ВКонтакте</p>
+				</div>
+				<div>
+					<script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width:"auto", height: "800", color1: '202020', color2: 'FFF', color3: 'FCCD00'}, 183607835);
+</script>
+					
+                                               <div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+   			<div class="footer-main">
+				<div class="col-md-6 footer-main-left">
+					<h3>Сталкерский ПДА</h3>
+					<div class="footer-bottom">
+                                        	<div class="col-md-6 footer-bottom-left">
+							<p class=active>Production time</p>
+							<p>Questions and answers </p>
+							<p>Payment methods</p>
+						</div>
+						<div class="col-md-6 footer-bottom-left">
+							<p>Shipping information</p>
+							<p>Feedback</p>
+							<p>User agreement</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+                                     <div class="clearfix"></div>
+				</div>
+				<div class="col-md-6 footer-main-right">
+					<ul>
+					<li><a href="#"><span class="facebook"></span></a></li>
+					<li><a href="#"><span class="twitter"></span></a></li>
+					<li><a href="#"><span class="dribble"></span></a></li>
+             				<li><a href="#"><span class="google"></span></a></li>
+					</ul>
+					<p>Powered by <a href="http://artux.net/">Artux</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+                <script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+</body>
+</html>
