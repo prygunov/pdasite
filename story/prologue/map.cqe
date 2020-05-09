@@ -1,0 +1,31 @@
+{
+"id":"0",
+"title":"Кордон",
+"texture":"maps/map_escape.png",
+"boundsTexture":"maps/bounds.png",
+"defPos":"330:960",
+"points":[
+{
+"type":"0",
+"pos":"626:369",
+"data":{
+"chapter":"0",
+"stage":"7",
+"condition": 
+{
+            "value=": [
+              "1"
+            ]
+          }
+}
+}
+],
+"transfers":[
+{
+"pos":"200:200",
+"message":"Болота",
+"to":"1"
+}
+],
+"spawns":[]
+}
